@@ -1,0 +1,55 @@
+.smallContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 30px;
+}
+
+.smallContainer input[type="file"]{
+    display: none;
+}
+
+.smallContainer label{
+    background-color: 	#8f00ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bigContainer{
+    display: flex;
+    justify-content: center;
+    width:100%
+}
+
+.cards{
+    margin: 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+}
+
+.card{
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    
+}
+
+.cardImage{
+    width:100%;
+    display: block;
+}
+
+.buttonClass{
+    display: flex;
+    justify-content: center;
+}
+
+.logout{
+    border: none;
+    background-color: 	#8f00ff;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
